@@ -30,11 +30,12 @@ public class JavaQuest3 {
     
     // Complete the switch statement
     switch (month) {
-      case 2:
+      case 2://2 - > February
         MonthOfName = "February";
         // Leap Year -> 29 days in February, otherwise 28.
         // Definition: If a year is divisible by 4 and not divisible by 100, 
         // but include the year divisible by 400.
+        // (year % 4 ==0 && year % 100 !=0 || year % 400 ==0)
 
         // Complete the other months
     }
